@@ -1,0 +1,31 @@
+{
+	"name": "pelmorex",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alexisyepes/pelmorex-test.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/alexisyepes/pelmorex-test/issues"
+	},
+	"homepage": "https://github.com/alexisyepes/pelmorex-test#readme",
+	"dependencies": {
+		"date-fns": "^4.1.0",
+		"express": "^5.2.1",
+		"nodemon": "^3.1.11",
+		"redis": "^5.10.0"
+	}
+}
