@@ -1,2 +1,5 @@
-/node_modules
+node_modules/
 .env
+.DS_Store
+pelmorex-test-frontend/node_modules/
+pelmorex-test-frontend/.next/

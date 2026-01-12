@@ -51,9 +51,11 @@ router.get("/temperature", cache("temperature"), async (req, res) => {
 		); // Cache for 5 minutes
 
 		res.json({
-			datasource: "Source",
-			tenNightsTempAvg: averageNightTemp,
-			formattedData,
+			dataSrc: "Source",
+			data: {
+				tenNightsTempAvg: averageNightTemp,
+				formattedData,
+			},
 		});
 	} catch (error) {
 		console.error("Error fetching temperature data:", error);
